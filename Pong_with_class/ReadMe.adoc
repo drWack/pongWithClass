@@ -8,9 +8,6 @@
 using an 8x8 LED matrix, make a simple pong game
 
 == Step 1: Installation
-Please describe the steps to install this project.
-
-For example:
 
 1. Open this file
 2. Edit as you like
@@ -32,8 +29,8 @@ Upload the code contained in this sketch on to your board
 === Folder structure
 
 ....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
+ Pong_with_class          => Arduino sketch folder
+  ├── Pong_with_class.ino => main Arduino file
   ├── rowCalScann_bb.png  => a wiring layout
   ├── myLib.h             => personal library, mostly for handling the led matrix elegantly
   ├── Matrix.cpp          => custom class file for Matrixes
@@ -42,23 +39,24 @@ Upload the code contained in this sketch on to your board
 
 === License
 This project is released under a Memeware License.
-if you use this, and see me in public, show me your freshest meme
+if you use this, and see me in public, show me your freshest meme (good memes pls)
 
 === Contributing
 To contribute to this project please contact drWack413 <jmachadoat4@gmail.com>
+or do that ish on github idc dawg hit me with that pull req dawg
 
 === BOM
 Add the bill of the materials you need for this project.
 
 |===
 | ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10       
+| J4 | Touch Resistor | unknown     | 2        
 | L1 | Jumper wires   | unknown     | 23
 | MF | F2M wires      | unknown     | 16 
 | A1 | Arduino Uno    | ABX00066    | 1        
 | 88 | 8x8 Led Matrix | unknown     | 1
 |===
-
+(touch resistor can be swapped for any potentiometer)
 
 === Help
 This document is written in the _AsciiDoc_ format, a markup language to describe documents. 
